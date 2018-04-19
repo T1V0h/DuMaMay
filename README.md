@@ -53,6 +53,6 @@ Hit the jailbreak button in the center and thats all.
 Jailbreak will possible fail a couple times , so just keep retrying till it works
 
 # Issues?
-Any issues please post here (@T1_V0H!)
+Any issues, please post them here (@T1_V0H!)
 
 https://github.com/T1V0h/DuMaMay/issues
