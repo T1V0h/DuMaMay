@@ -3,7 +3,7 @@ basically a super version of saigon.
 
 reboot button will now reboot idevice.
 
---------------------------------------------------------
+#
 
 by Thompson Vo (@t1_v0h!) - exploit by Siguza (@s1guza)
 
@@ -12,26 +12,28 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
 #
 # Supported devices
-| Device | Supports |
-|---------|----------|
-| iPhone 6/+ | iOS 10.2.1 |            
-| iPhone 6S/+ | iOS 10.2.1 |
-| iPhone SE | iOS 10.2.1 |
-| iPad Air | iOS 10.2.1 |
-| iPad Air 2 | iOS 10.2.1 |
-| iPad Mini 4 | iOS 10.2.1 |
-| iPod Touch 6 | iOS 10.2.1 |
-| iPod Touch 5S | iOS 10.2.1 |
-| iPod Touch 6 | iOS 10.2.1 |
-| iPhone 7/+ | Not Supported |
-_____________________________________________________
+
+|    Device    |   Supports   |
+|--------------|--------------|
+| iPhone 6/+   |  iOS 10.2.1  |            
+| iPhone 6S/+  |  iOS 10.2.1  |
+| iPhone SE.   |  iOS 10.2.1  |
+| iPad Air     |  iOS 10.2.1  |
+| iPad Air 2   |  iOS 10.2.1  |
+| iPad Mini 4  |  iOS 10.2.1  |
+| iPod Touch 6 |  iOS 10.2.1  |
+| iPod Touch 5S|  iOS 10.2.1  |
+| iPod Touch 6 |  iOS 10.2.1  |
+| iPhone 7/+   | Not Supported|
+
+#
 
 # DuMaMay JB Screenshot
 
 <a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 <a href="http://tinypic.com?ref=90nint" target="_blank"><img src="http://i67.tinypic.com/90nint.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
-______________________________________________________________________________
+#
 
 # How do I install this?
 1. Open project in Xcode and Run it to your iDevice.
