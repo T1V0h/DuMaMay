@@ -26,8 +26,11 @@ download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4
 | iPhone 7/+ | Not Supported |
 
 ________________________________________________________________________
+# DuMaMay JB Screenshot
 
 <a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+
+______________________________________________________________________________
 
 # How do I install this?
 1. Open project in Xcode and Run it to your iDevice.
