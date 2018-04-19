@@ -433,7 +433,7 @@
                                     <constraint firstAttribute="width" constant="154" id="rFi-k1-7Ht"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9EG-Ic-xfk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default.gif" translatesAutoresizingMaskIntoConstraints="NO" id="9EG-Ic-xfk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="zLi-nw-ced">
@@ -625,6 +625,7 @@
         <image name="Sad-Face.png" width="683" height="623"/>
         <image name="buffer-loading" width="1567" height="1561"/>
         <image name="cydia" width="1280" height="1280"/>
+        <image name="default.gif" width="300" height="120"/>
         <image name="respring" width="256" height="256"/>
     </resources>
 </document>
