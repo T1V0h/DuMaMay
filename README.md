@@ -25,6 +25,8 @@ download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4
 | iPod Touch 6 | iOS 10.2.1 |
 | iPhone 7/+ | Not Supported |
 
+________________________________________________________________________
+
 <a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 # How do I install this?
