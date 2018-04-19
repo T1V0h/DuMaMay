@@ -30,7 +30,7 @@ _____________________________________________________
 # DuMaMay JB Screenshot
 
 <a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
-<a href="http://tinypic.com?ref=kbzomf" target="_blank"><img src="http://i63.tinypic.com/kbzomf.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+<a href="http://tinypic.com?ref=90nint" target="_blank"><img src="http://i67.tinypic.com/90nint.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 ______________________________________________________________________________
 
