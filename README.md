@@ -17,7 +17,7 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 | iPod Touch 6 | iOS 10.2.1 |
 | iPhone 7/+ | Not Supported |
 
-<a href="http://tinypic.com?ref=11uvyas" target="_blank"><img src="http://i66.tinypic.com/11uvyas.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+<a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 # How do I install this?
 Open project in Xcode and Run it to your iDevice
