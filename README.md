@@ -5,18 +5,18 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 
 # Supported devices
 
-|    Device     |  Supports     |
-|---------------|---------------|
-| iPhone 6/+    |  iOS 10.2.1   |
-| iPhone 6S/+   |  iOS 10.2.1   |
-| iPhone SE     |  iOS 10.2.1   |
-| iPad Air      |  iOS 10.2.1   |
-| iPad Air 2    |  iOS 10.2.1   |
-| iPad Mini 4   |  iOS 10.2.1   |
-| iPod Touch 6  |  iOS 10.2.1   |
-| iPod Touch 5s |  iOS 10.2.1   |
-| iPod Touch 6  |  iOS 10.2.1   |
-| iPhone 7/+    | Not Supported |
+|    Device     |   Supports   |
+|---------------|--------------|
+| iPhone 6/+    |  iOS 10.2.1  |
+| iPhone 6S/+   |  iOS 10.2.1  |
+| iPhone SE     |  iOS 10.2.1  |
+| iPad Air      |  iOS 10.2.1  |
+| iPad Air 2    |  iOS 10.2.1  |
+| iPad Mini 4   |  iOS 10.2.1  |
+| iPod Touch 6  |  iOS 10.2.1  |
+| iPod Touch 5s |  iOS 10.2.1  |
+| iPod Touch 6  |  iOS 10.2.1  |
+| iPhone 7/+    |  iOS -NONE-  |
 
 # How do I install this?
 Open project in Xcode and Run it to your iDevice
