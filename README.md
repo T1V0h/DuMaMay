@@ -1,7 +1,7 @@
 # DuMaMay jailbreak for iOS 10.2.1
 basically a super version of saigon.
 
-reboot button on will now reboot idevice.
+reboot button will now reboot idevice.
 
 --------------------------------------------------------
 
