@@ -369,6 +369,7 @@ NSString *error_message;
     self.illuminateView.hidden = NO;
     self.imageView.hidden = NO;
     self.reCydia.hidden = NO; {
+        self.warning.hidden = NO;
         self.warning2.hidden = NO;
     }
     
