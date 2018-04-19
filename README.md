@@ -10,7 +10,7 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 | iPhone 6/+ | iOS 10.2.1 |            
 | iPhone 6S/+ | iOS 10.2.1 |
 | iPhone SE | iOS 10.2.1 |
-| iPad Air | iOS 10.2/10.2.1 |
+| iPad Air | iOS 10.2.1 |
 | iPad Air 2 | iOS 10.2.1 |
 | iPad Mini 4 | iOS 10.2.1 |
 | iPod Touch 6 | iOS 10.2.1 |
