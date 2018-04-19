@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2929C44A207287B40036395E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2929C449207287B40036395E /* ImageIO.framework */; };
+		29996BF7207BBF5B00486452 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29996BF6207BBF5B00486452 /* assets.xcassets */; };
+		29996BFF207BBFB200486452 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = 29996BFE207BBFB200486452 /* bootstrap.tar */; };
+		29996C02207BBFC800486452 /* dropbear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29996C01207BBFC800486452 /* dropbear.plist */; };
+		29996C04207BBFD500486452 /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = 29996C03207BBFD500486452 /* launchctl */; };
+		29996C06207BBFDF00486452 /* reload in Resources */ = {isa = PBXBuildFile; fileRef = 29996C05207BBFDF00486452 /* reload */; };
+		29996C08207BBFED00486452 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = 29996C07207BBFEC00486452 /* tar */; };
+		29996C0A207BBFF800486452 /* 0.reload.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29996C09207BBFF800486452 /* 0.reload.plist */; };
+		29996C17207BC04000486452 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C14207BC04000486452 /* offsets.m */; };
+		29996C18207BC04000486452 /* v0rtex.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C16207BC04000486452 /* v0rtex.m */; };
+		29996C26207BC07D00486452 /* darwin-inject-asm.s in Sources */ = {isa = PBXBuildFile; fileRef = 29996C19207BC07C00486452 /* darwin-inject-asm.s */; };
+		29996C27207BC07D00486452 /* unjail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C1B207BC07C00486452 /* unjail.m */; };
+		29996C28207BC07D00486452 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 29996C1C207BC07C00486452 /* patchfinder64.c */; };
+		29996C29207BC07D00486452 /* kppless.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C20207BC07C00486452 /* kppless.m */; };
+		29996C2A207BC07D00486452 /* jailbreak.c in Sources */ = {isa = PBXBuildFile; fileRef = 29996C21207BC07C00486452 /* jailbreak.c */; };
+		29996C2B207BC07D00486452 /* libjb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29996C23207BC07D00486452 /* libjb.a */; };
+		29996C2C207BC07D00486452 /* kppless_inject.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C25207BC07D00486452 /* kppless_inject.m */; };
+		29996C2F207BC10E00486452 /* DuMaMayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C2E207BC10E00486452 /* DuMaMayViewController.m */; };
+		29996C31207BC11B00486452 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C30207BC11A00486452 /* AlertViewController.m */; };
+		29996C33207BC12400486452 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C32207BC12400486452 /* InfoViewController.m */; };
+		29996C36207BC13800486452 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C35207BC13800486452 /* Utilities.m */; };
+		29996C38207BC14000486452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C37207BC14000486452 /* main.m */; };
+		29996C3B207BC15300486452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29996C3A207BC15300486452 /* AppDelegate.m */; };
+		29996C42207BCC1100486452 /* buffer-loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29996BF8207BBF7F00486452 /* buffer-loading.gif */; };
+		29996C43207BCC1400486452 /* respring.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29996BFA207BBF9000486452 /* respring.gif */; };
+		29B3EA292087B1E100053AB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B3EA282087B1E100053AB1 /* AVFoundation.framework */; };
+		29E9F7C52088586100F33F8C /* cydia.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7C02088586100F33F8C /* cydia.png */; };
+		29E9F7C62088586100F33F8C /* default.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7C12088586100F33F8C /* default.gif */; };
+		29E9F7C72088586100F33F8C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7C22088586100F33F8C /* icon.png */; };
+		29E9F7C82088586100F33F8C /* 1224008-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7C32088586100F33F8C /* 1224008-200.png */; };
+		29E9F7C92088586100F33F8C /* Sad-Face.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7C42088586100F33F8C /* Sad-Face.png */; };
+		29E9F7CB2088586B00F33F8C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7CA2088586B00F33F8C /* Launch Screen.storyboard */; };
+		29E9F7CD2088587300F33F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7CC2088587300F33F8C /* Main.storyboard */; };
+		29E9F7CF2088589F00F33F8C /* failed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7CE2088589F00F33F8C /* failed.mp3 */; };
+		29E9F7D1208858AD00F33F8C /* successDuMa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29E9F7D0208858AD00F33F8C /* successDuMa.mp3 */; };
+		29E9F7D4208858CD00F33F8C /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9F7D2208858CC00F33F8C /* UIImage+animatedGIF.m */; };
+		75213E6B1F776EED003FA69D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75213E6A1F776EED003FA69D /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		29996C3E207BC58C00486452 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# metal\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2929C449207287B40036395E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		29996BF6207BBF5B00486452 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = dumamay/assets.xcassets; sourceTree = "<group>"; };
+		29996BF8207BBF7F00486452 /* buffer-loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "buffer-loading.gif"; path = "dumamay/assets.xcassets/buffer-loading.imageset/buffer-loading.gif"; sourceTree = "<group>"; };
+		29996BFA207BBF9000486452 /* respring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = respring.gif; path = dumamay/assets.xcassets/respring.imageset/respring.gif; sourceTree = "<group>"; };
+		29996BFE207BBFB200486452 /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = bootstrap.tar; path = dumamay/bootstrap.tar; sourceTree = "<group>"; };
+		29996C00207BBFBC00486452 /* bootstrap.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; name = bootstrap.dmg; path = dumamay/bootstrap.dmg; sourceTree = "<group>"; };
+		29996C01207BBFC800486452 /* dropbear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dropbear.plist; path = dumamay/dropbear.plist; sourceTree = "<group>"; };
+		29996C03207BBFD500486452 /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = launchctl; path = dumamay/launchctl; sourceTree = "<group>"; };
+		29996C05207BBFDF00486452 /* reload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = reload; path = dumamay/reload; sourceTree = "<group>"; };
+		29996C07207BBFEC00486452 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = tar; path = dumamay/tar; sourceTree = "<group>"; };
+		29996C09207BBFF800486452 /* 0.reload.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 0.reload.plist; path = dumamay/0.reload.plist; sourceTree = "<group>"; };
+		29996C0B207BC00F00486452 /* IOKitKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOKitKeys.h; path = dumamay/IOKit/IOKitKeys.h; sourceTree = "<group>"; };
+		29996C0C207BC00F00486452 /* IOKitLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOKitLib.h; path = dumamay/IOKit/IOKitLib.h; sourceTree = "<group>"; };
+		29996C0D207BC00F00486452 /* IOReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOReturn.h; path = dumamay/IOKit/IOReturn.h; sourceTree = "<group>"; };
+		29996C0E207BC00F00486452 /* OSKext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OSKext.h; path = dumamay/IOKit/OSKext.h; sourceTree = "<group>"; };
+		29996C0F207BC00F00486452 /* OSMessageNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OSMessageNotification.h; path = dumamay/IOKit/OSMessageNotification.h; sourceTree = "<group>"; };
+		29996C10207BC00F00486452 /* IOTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOTypes.h; path = dumamay/IOKit/IOTypes.h; sourceTree = "<group>"; };
+		29996C11207BC00F00486452 /* IOMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOMessage.h; path = dumamay/IOKit/IOMessage.h; sourceTree = "<group>"; };
+		29996C12207BC01000486452 /* IOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOKit.h; path = dumamay/IOKit/IOKit.h; sourceTree = "<group>"; };
+		29996C13207BC04000486452 /* v0rtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = v0rtex.h; path = dumamay/vortex/v0rtex.h; sourceTree = "<group>"; };
+		29996C14207BC04000486452 /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = offsets.m; path = dumamay/vortex/offsets.m; sourceTree = "<group>"; };
+		29996C15207BC04000486452 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = offsets.h; path = dumamay/vortex/offsets.h; sourceTree = "<group>"; };
+		29996C16207BC04000486452 /* v0rtex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = v0rtex.m; path = dumamay/vortex/v0rtex.m; sourceTree = "<group>"; };
+		29996C19207BC07C00486452 /* darwin-inject-asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "darwin-inject-asm.s"; path = "dumamay/extra_recipe/darwin-inject-asm.s"; sourceTree = "<group>"; };
+		29996C1A207BC07C00486452 /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patchfinder64.h; path = dumamay/extra_recipe/patchfinder64.h; sourceTree = "<group>"; };
+		29996C1B207BC07C00486452 /* unjail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = unjail.m; path = dumamay/extra_recipe/unjail.m; sourceTree = "<group>"; };
+		29996C1C207BC07C00486452 /* patchfinder64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = patchfinder64.c; path = dumamay/extra_recipe/patchfinder64.c; sourceTree = "<group>"; };
+		29996C1D207BC07C00486452 /* pte_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pte_stuff.h; path = dumamay/extra_recipe/pte_stuff.h; sourceTree = "<group>"; };
+		29996C1E207BC07C00486452 /* kppless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kppless.h; path = dumamay/extra_recipe/kppless.h; sourceTree = "<group>"; };
+		29996C1F207BC07C00486452 /* libjb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libjb.h; path = dumamay/extra_recipe/libjb.h; sourceTree = "<group>"; };
+		29996C20207BC07C00486452 /* kppless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kppless.m; path = dumamay/extra_recipe/kppless.m; sourceTree = "<group>"; };
+		29996C21207BC07C00486452 /* jailbreak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jailbreak.c; path = dumamay/extra_recipe/jailbreak.c; sourceTree = "<group>"; };
+		29996C22207BC07D00486452 /* unjail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unjail.h; path = dumamay/extra_recipe/unjail.h; sourceTree = "<group>"; };
+		29996C23207BC07D00486452 /* libjb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjb.a; path = dumamay/extra_recipe/libjb.a; sourceTree = "<group>"; };
+		29996C24207BC07D00486452 /* kppless_inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kppless_inject.h; path = dumamay/extra_recipe/kppless_inject.h; sourceTree = "<group>"; };
+		29996C25207BC07D00486452 /* kppless_inject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kppless_inject.m; path = dumamay/extra_recipe/kppless_inject.m; sourceTree = "<group>"; };
+		29996C2D207BC0B000486452 /* jailbreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jailbreak.h; path = dumamay/jailbreak.h; sourceTree = "<group>"; };
+		29996C2E207BC10E00486452 /* DuMaMayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DuMaMayViewController.m; path = dumamay/DuMaMayViewController.m; sourceTree = "<group>"; };
+		29996C30207BC11A00486452 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertViewController.m; path = dumamay/AlertViewController.m; sourceTree = "<group>"; };
+		29996C32207BC12400486452 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = dumamay/InfoViewController.m; sourceTree = "<group>"; };
+		29996C34207BC12F00486452 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = dumamay/Utilities.h; sourceTree = "<group>"; };
+		29996C35207BC13800486452 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = dumamay/Utilities.m; sourceTree = "<group>"; };
+		29996C37207BC14000486452 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = dumamay/main.m; sourceTree = "<group>"; };
+		29996C39207BC14C00486452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dumamay/AppDelegate.h; sourceTree = "<group>"; };
+		29996C3A207BC15300486452 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dumamay/AppDelegate.m; sourceTree = "<group>"; };
+		29996C3C207BC15E00486452 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dumamay/Info.plist; sourceTree = "<group>"; };
+		29B3EA282087B1E100053AB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		29E9F7C02088586100F33F8C /* cydia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cydia.png; path = dumamay/cydia.png; sourceTree = "<group>"; };
+		29E9F7C12088586100F33F8C /* default.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = default.gif; path = dumamay/default.gif; sourceTree = "<group>"; };
+		29E9F7C22088586100F33F8C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = dumamay/icon.png; sourceTree = "<group>"; };
+		29E9F7C32088586100F33F8C /* 1224008-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1224008-200.png"; path = "dumamay/1224008-200.png"; sourceTree = "<group>"; };
+		29E9F7C42088586100F33F8C /* Sad-Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sad-Face.png"; path = "dumamay/Sad-Face.png"; sourceTree = "<group>"; };
+		29E9F7CA2088586B00F33F8C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "dumamay/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		29E9F7CC2088587300F33F8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = dumamay/Main.storyboard; sourceTree = "<group>"; };
+		29E9F7CE2088589F00F33F8C /* failed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failed.mp3; path = dumamay/mp3/failed.mp3; sourceTree = "<group>"; };
+		29E9F7D0208858AD00F33F8C /* successDuMa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = successDuMa.mp3; path = dumamay/mp3/successDuMa.mp3; sourceTree = "<group>"; };
+		29E9F7D2208858CC00F33F8C /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "dumamay/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		29E9F7D3208858CD00F33F8C /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "dumamay/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		75213E6A1F776EED003FA69D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA9900E31E1E9F060056FEBD /* DuMaMay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuMaMay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9900E01E1E9F060056FEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B3EA292087B1E100053AB1 /* AVFoundation.framework in Frameworks */,
+				2929C44A207287B40036395E /* ImageIO.framework in Frameworks */,
+				29996C2B207BC07D00486452 /* libjb.a in Frameworks */,
+				75213E6B1F776EED003FA69D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B3EA2A2087B25B00053AB1 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				29E9F7CE2088589F00F33F8C /* failed.mp3 */,
+				29E9F7D0208858AD00F33F8C /* successDuMa.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		75213E691F776EEC003FA69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B3EA282087B1E100053AB1 /* AVFoundation.framework */,
+				2929C449207287B40036395E /* ImageIO.framework */,
+				75213E6A1F776EED003FA69D /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75213E6C1F776F00003FA69D /* dumamay */ = {
+			isa = PBXGroup;
+			children = (
+				75CCC4251F85C50E00E46AE5 /* bundle */,
+				753A833E1F78045500CB38A9 /* IOKit */,
+				75213EA71F776F84003FA69D /* v0rtex */,
+				75213E9A1F776F73003FA69D /* extra_recipe */,
+				29B3EA2A2087B25B00053AB1 /* Music */,
+				29E9F7D3208858CD00F33F8C /* UIImage+animatedGIF.h */,
+				29E9F7D2208858CC00F33F8C /* UIImage+animatedGIF.m */,
+				29996C2E207BC10E00486452 /* DuMaMayViewController.m */,
+				29996C30207BC11A00486452 /* AlertViewController.m */,
+				29996C32207BC12400486452 /* InfoViewController.m */,
+				29996C34207BC12F00486452 /* Utilities.h */,
+				29996C35207BC13800486452 /* Utilities.m */,
+				29996C37207BC14000486452 /* main.m */,
+				29996C3A207BC15300486452 /* AppDelegate.m */,
+				29996C39207BC14C00486452 /* AppDelegate.h */,
+				29996C3C207BC15E00486452 /* Info.plist */,
+			);
+			name = dumamay;
+			sourceTree = "<group>";
+		};
+		75213E9A1F776F73003FA69D /* extra_recipe */ = {
+			isa = PBXGroup;
+			children = (
+				29996C2D207BC0B000486452 /* jailbreak.h */,
+				29996C19207BC07C00486452 /* darwin-inject-asm.s */,
+				29996C21207BC07C00486452 /* jailbreak.c */,
+				29996C24207BC07D00486452 /* kppless_inject.h */,
+				29996C25207BC07D00486452 /* kppless_inject.m */,
+				29996C1E207BC07C00486452 /* kppless.h */,
+				29996C20207BC07C00486452 /* kppless.m */,
+				29996C23207BC07D00486452 /* libjb.a */,
+				29996C1F207BC07C00486452 /* libjb.h */,
+				29996C1C207BC07C00486452 /* patchfinder64.c */,
+				29996C1A207BC07C00486452 /* patchfinder64.h */,
+				29996C1D207BC07C00486452 /* pte_stuff.h */,
+				29996C22207BC07D00486452 /* unjail.h */,
+				29996C1B207BC07C00486452 /* unjail.m */,
+			);
+			name = extra_recipe;
+			sourceTree = "<group>";
+		};
+		75213EA71F776F84003FA69D /* v0rtex */ = {
+			isa = PBXGroup;
+			children = (
+				29996C15207BC04000486452 /* offsets.h */,
+				29996C14207BC04000486452 /* offsets.m */,
+				29996C13207BC04000486452 /* v0rtex.h */,
+				29996C16207BC04000486452 /* v0rtex.m */,
+			);
+			name = v0rtex;
+			sourceTree = "<group>";
+		};
+		753A833E1F78045500CB38A9 /* IOKit */ = {
+			isa = PBXGroup;
+			children = (
+				29996C12207BC01000486452 /* IOKit.h */,
+				29996C0B207BC00F00486452 /* IOKitKeys.h */,
+				29996C0C207BC00F00486452 /* IOKitLib.h */,
+				29996C11207BC00F00486452 /* IOMessage.h */,
+				29996C0D207BC00F00486452 /* IOReturn.h */,
+				29996C10207BC00F00486452 /* IOTypes.h */,
+				29996C0E207BC00F00486452 /* OSKext.h */,
+				29996C0F207BC00F00486452 /* OSMessageNotification.h */,
+			);
+			name = IOKit;
+			sourceTree = "<group>";
+		};
+		75CCC4251F85C50E00E46AE5 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				29E9F7C32088586100F33F8C /* 1224008-200.png */,
+				29E9F7C02088586100F33F8C /* cydia.png */,
+				29E9F7C12088586100F33F8C /* default.gif */,
+				29E9F7C22088586100F33F8C /* icon.png */,
+				29E9F7C42088586100F33F8C /* Sad-Face.png */,
+				29996BF8207BBF7F00486452 /* buffer-loading.gif */,
+				29996BFA207BBF9000486452 /* respring.gif */,
+				29E9F7CA2088586B00F33F8C /* Launch Screen.storyboard */,
+				29996BF6207BBF5B00486452 /* assets.xcassets */,
+				29E9F7CC2088587300F33F8C /* Main.storyboard */,
+				29996BFE207BBFB200486452 /* bootstrap.tar */,
+				29996C00207BBFBC00486452 /* bootstrap.dmg */,
+				29996C01207BBFC800486452 /* dropbear.plist */,
+				29996C03207BBFD500486452 /* launchctl */,
+				29996C05207BBFDF00486452 /* reload */,
+				29996C07207BBFEC00486452 /* tar */,
+				29996C09207BBFF800486452 /* 0.reload.plist */,
+			);
+			name = bundle;
+			sourceTree = "<group>";
+		};
+		EA9900DA1E1E9F060056FEBD = {
+			isa = PBXGroup;
+			children = (
+				75213E6C1F776F00003FA69D /* dumamay */,
+				EA9900E41E1E9F060056FEBD /* Products */,
+				75213E691F776EEC003FA69D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9900E41E1E9F060056FEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9900E31E1E9F060056FEBD /* DuMaMay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9900E21E1E9F060056FEBD /* DuMaMay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "DuMaMay" */;
+			buildPhases = (
+				EA9900DF1E1E9F060056FEBD /* Sources */,
+				EA9900E01E1E9F060056FEBD /* Frameworks */,
+				EA9900E11E1E9F060056FEBD /* Resources */,
+			);
+			buildRules = (
+				29996C3E207BC58C00486452 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = DuMaMay;
+			productName = DuMaMay;
+			productReference = EA9900E31E1E9F060056FEBD /* DuMaMay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9900DB1E1E9F060056FEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "t1_voh!";
+				TargetAttributes = {
+					EA9900E21E1E9F060056FEBD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U25NLN8WBY;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "DuMaMay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9900DA1E1E9F060056FEBD;
+			productRefGroup = EA9900E41E1E9F060056FEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9900E21E1E9F060056FEBD /* DuMaMay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9900E11E1E9F060056FEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29996C04207BBFD500486452 /* launchctl in Resources */,
+				29996C0A207BBFF800486452 /* 0.reload.plist in Resources */,
+				29E9F7C72088586100F33F8C /* icon.png in Resources */,
+				29996C02207BBFC800486452 /* dropbear.plist in Resources */,
+				29996C08207BBFED00486452 /* tar in Resources */,
+				29E9F7CF2088589F00F33F8C /* failed.mp3 in Resources */,
+				29996C43207BCC1400486452 /* respring.gif in Resources */,
+				29E9F7D1208858AD00F33F8C /* successDuMa.mp3 in Resources */,
+				29996C42207BCC1100486452 /* buffer-loading.gif in Resources */,
+				29E9F7C52088586100F33F8C /* cydia.png in Resources */,
+				29E9F7C62088586100F33F8C /* default.gif in Resources */,
+				29E9F7CB2088586B00F33F8C /* Launch Screen.storyboard in Resources */,
+				29996BFF207BBFB200486452 /* bootstrap.tar in Resources */,
+				29996BF7207BBF5B00486452 /* assets.xcassets in Resources */,
+				29996C06207BBFDF00486452 /* reload in Resources */,
+				29E9F7CD2088587300F33F8C /* Main.storyboard in Resources */,
+				29E9F7C82088586100F33F8C /* 1224008-200.png in Resources */,
+				29E9F7C92088586100F33F8C /* Sad-Face.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9900DF1E1E9F060056FEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29996C26207BC07D00486452 /* darwin-inject-asm.s in Sources */,
+				29996C2C207BC07D00486452 /* kppless_inject.m in Sources */,
+				29996C36207BC13800486452 /* Utilities.m in Sources */,
+				29996C29207BC07D00486452 /* kppless.m in Sources */,
+				29996C3B207BC15300486452 /* AppDelegate.m in Sources */,
+				29996C27207BC07D00486452 /* unjail.m in Sources */,
+				29996C38207BC14000486452 /* main.m in Sources */,
+				29996C31207BC11B00486452 /* AlertViewController.m in Sources */,
+				29996C28207BC07D00486452 /* patchfinder64.c in Sources */,
+				29996C2A207BC07D00486452 /* jailbreak.c in Sources */,
+				29996C33207BC12400486452 /* InfoViewController.m in Sources */,
+				29996C18207BC04000486452 /* v0rtex.m in Sources */,
+				29996C17207BC04000486452 /* offsets.m in Sources */,
+				29E9F7D4208858CD00F33F8C /* UIImage+animatedGIF.m in Sources */,
+				29996C2F207BC10E00486452 /* DuMaMayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA9900F81E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DuMaMay;
+				PRODUCT_NAME = DuMaMay;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA9900F91E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = DuMaMay;
+				PRODUCT_NAME = DuMaMay;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9900FB1E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = U25NLN8WBY;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				INFOPLIST_FILE = dumamay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dumamay/extra_recipe",
+					"$(PROJECT_DIR)/dumamay/extra_recipe",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tivo.dumamay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		EA9900FC1E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				DEVELOPMENT_TEAM = U25NLN8WBY;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				INFOPLIST_FILE = dumamay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dumamay/extra_recipe",
+					"$(PROJECT_DIR)/dumamay/extra_recipe",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tivo.dumamay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "DuMaMay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900F81E1E9F060056FEBD /* Debug */,
+				EA9900F91E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "DuMaMay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900FB1E1E9F060056FEBD /* Debug */,
+				EA9900FC1E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9900DB1E1E9F060056FEBD /* Project object */;
+}
