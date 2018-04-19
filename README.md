@@ -1,6 +1,6 @@
 # DuMaMay-1021
 
-# JailBreak iOS 10.2.1
+# iOS JailBreak for 10.2.1
 
 By Thompson Vo (@t1_v0h!)
 
