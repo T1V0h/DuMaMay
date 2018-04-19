@@ -38,10 +38,14 @@ ______________________________________________________________________________
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
+
 JailBreak is only tethered not Untethered -
 
-If idevice is rebooted/or turned off then back on, device must be rejailbroken using DuMaMay.ipa
+If idevice is rebooted/or turned off then back on, 
+
+device must be rejailbroken using DuMaMay.ipa
 
 # How to use?
 Hit the jailbreak button in the center and thats all.
+
 Jailbreak will possible fail a couple times , so just keep retrying till it works
