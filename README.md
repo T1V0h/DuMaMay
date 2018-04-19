@@ -1,12 +1,12 @@
 # DuMaMay jailbreak for iOS 10.2.1
 
-basically a super version of saigon
+Basically a super version of saigon
 
 # Credits To 
 
-by Thompson Vo (@t1_v0h!)
+By Thompson Vo (@t1_v0h!)
 
-exploit by Siguza (@s1guza)
+Exploit by Siguza (@s1guza)
 
 (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
@@ -36,13 +36,13 @@ https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
-if device is rebooted then must run DuMaMay again to reJailbreak
+Ff device is rebooted then must run DuMaMay again to reJailbreak
 
 # How to use?
 Hit the jailbreak button in the center and thats all.
 Jailbreak will possible fail a couple times , so just keep retrying till it works
 
 # Any Issues?
-any issues...post them at link delow - @T1_V0H!
+Any issues...post them at link delow - @T1_V0H!
 
 https://github.com/T1V0h/DuMaMay/issues
