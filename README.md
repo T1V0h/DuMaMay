@@ -18,7 +18,7 @@ https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
        
 
 # Supported devices
-_________________________________
+
 |    Device    |    Supports    |
 |--------------|----------------|
 | iPhone 6/+   |   iOS 10.2.1   |            
@@ -31,7 +31,6 @@ _________________________________
 | iPod Touch 5S|   iOS 10.2.1   |
 | iPod Touch 6 |   iOS 10.2.1   |
 | iPhone 7/+   |  Not Supported |
----------------------------------
   
 
 # DuMaMay-10.2.1-JB Screenshot
@@ -39,12 +38,15 @@ _________________________________
 <a href="http://tinypic.com?ref=2eqdlld" target="_blank"><img src="http://i64.tinypic.com/2eqdlld.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 <a href="http://tinypic.com?ref=90nint" target="_blank"><img src="http://i67.tinypic.com/90nint.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
-#        
+
+
 
 # How do I install this?
 1. Open project in Xcode and Run it to your iDevice.
 2. Get ipa here https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa and use cydia impactor to sideload app.
 3. Run "compile.sh" in terminal and sideload ipa file using jtool.
+
+
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
@@ -55,10 +57,14 @@ If idevice is rebooted/or turned off then back on,
 
 device must be rejailbroken using DuMaMay.ipa
 
+
+
 # How to use?
 Hit the jailbreak button in the center and thats all.
 
 Jailbreak will possible fail a couple times , so just keep retrying till it works
+
+
 
 # Issues?
 Any issues, please post them here (@T1_V0H!)
