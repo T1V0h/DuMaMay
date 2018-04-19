@@ -6,7 +6,7 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 # Supported devices
 | Device | Supports |
 |---------|----------|
-| iPhone 6/+ | iOS 10.2.1 |            <a href="http://tinypic.com?ref=11uvyas" target="_blank"><img src="http://i66.tinypic.com/11uvyas.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+| iPhone 6/+ | iOS 10.2.1 |            
 | iPhone 6S/+ | iOS 10.2.1 |
 | iPhone SE | iOS 10.2.1 |
 | iPad Air | iOS 10.2/10.2.1 |
@@ -16,6 +16,8 @@ thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecak
 | iPod Touch 5S | iOS 10.2.1 |
 | iPod Touch 6 | iOS 10.2.1 |
 | iPhone 7/+ | Not Supported |
+
+<a href="http://tinypic.com?ref=11uvyas" target="_blank"><img src="http://i66.tinypic.com/11uvyas.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
 # How do I install this?
 Open project in Xcode and Run it to your iDevice
