@@ -10,8 +10,7 @@ by Thompson Vo (@t1_v0h!) - exploit by Siguza (@s1guza)
 thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
 download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
-__________________________________________________________
-
+#
 # Supported devices
 | Device | Supports |
 |---------|----------|
