@@ -1,3 +1,5 @@
+theme: jekyll-theme-cayman
+
 # DuMaMay JailBreak for iOS 10.2.1
 basically a super version of saigon.
 
