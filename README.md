@@ -1,4 +1,5 @@
 # DuMaMay jailbreak for iOS 10.2.1
+basically a super version of saigon
 by Thompson Vo (@t1_v0h!) - exploit by Siguza (@s1guza)
 
 thanks to (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
