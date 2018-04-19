@@ -13,18 +13,18 @@ download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4
 #
 # Supported devices
 
-|    Device    |   Supports   |
-|--------------|--------------|
-| iPhone 6/+   |  iOS 10.2.1  |            
-| iPhone 6S/+  |  iOS 10.2.1  |
-| iPhone SE.   |  iOS 10.2.1  |
-| iPad Air     |  iOS 10.2.1  |
-| iPad Air 2   |  iOS 10.2.1  |
-| iPad Mini 4  |  iOS 10.2.1  |
-| iPod Touch 6 |  iOS 10.2.1  |
-| iPod Touch 5S|  iOS 10.2.1  |
-| iPod Touch 6 |  iOS 10.2.1  |
-| iPhone 7/+   | Not Supported|
+|    Device    |    Supports    |
+|--------------|----------------|
+| iPhone 6/+   |   iOS 10.2.1   |            
+| iPhone 6S/+  |   iOS 10.2.1   |
+| iPhone SE.   |   iOS 10.2.1   |
+| iPad Air     |   iOS 10.2.1   |
+| iPad Air 2   |   iOS 10.2.1   |
+| iPad Mini 4  |   iOS 10.2.1   |
+| iPod Touch 6 |   iOS 10.2.1   |
+| iPod Touch 5S|   iOS 10.2.1   |
+| iPod Touch 6 |   iOS 10.2.1   |
+| iPhone 7/+   |  Not Supported |
 
 #
 
