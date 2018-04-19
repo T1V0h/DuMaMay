@@ -1,10 +1,10 @@
-# DuMaMay jailbreak for iOS 10.2.1
+# DuMaMay-1021
 
-Basically a super version of saigon
-
-# Credits To 
+# JailBreak iOS 10.2.1
 
 By Thompson Vo (@t1_v0h!)
+
+Basically a super version of saigon
 
 Exploit by Siguza (@s1guza)
 
