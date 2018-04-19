@@ -433,7 +433,7 @@
                                     <constraint firstAttribute="width" constant="154" id="rFi-k1-7Ht"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dancer.gif" translatesAutoresizingMaskIntoConstraints="NO" id="9EG-Ic-xfk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9EG-Ic-xfk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="zLi-nw-ced">
@@ -452,8 +452,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPd-hB-bTQ">
-                                        <rect key="frame" x="128" y="453" width="120" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                        <rect key="frame" x="91" y="441" width="193" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="NAZ-f3-PAi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                         <state key="normal" title="reboot device">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -464,9 +467,10 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gPd-hB-bTQ" secondAttribute="bottom" constant="191" id="3x4-DK-cFt"/>
                                     <constraint firstItem="TrO-mw-1WD" firstAttribute="centerX" secondItem="MME-wJ-aFS" secondAttribute="centerX" id="797-R8-m2Y"/>
-                                    <constraint firstItem="gPd-hB-bTQ" firstAttribute="centerX" secondItem="zLi-nw-ced" secondAttribute="centerX" id="9Wt-SU-ePi"/>
-                                    <constraint firstAttribute="bottom" secondItem="gPd-hB-bTQ" secondAttribute="bottom" constant="179" id="Etd-O5-EBJ"/>
+                                    <constraint firstItem="gPd-hB-bTQ" firstAttribute="centerX" secondItem="TrO-mw-1WD" secondAttribute="centerX" id="QIE-Gv-TlR"/>
+                                    <constraint firstItem="gPd-hB-bTQ" firstAttribute="leading" secondItem="zLi-nw-ced" secondAttribute="leading" constant="91" id="Sch-ay-LQ6"/>
                                     <constraint firstItem="MME-wJ-aFS" firstAttribute="centerY" secondItem="zLi-nw-ced" secondAttribute="centerY" constant="-159" id="YK7-BC-DM6"/>
                                     <constraint firstItem="MME-wJ-aFS" firstAttribute="centerX" secondItem="zLi-nw-ced" secondAttribute="centerX" id="YMz-bD-RCQ"/>
                                     <constraint firstItem="TrO-mw-1WD" firstAttribute="top" secondItem="MME-wJ-aFS" secondAttribute="bottom" constant="26" id="l4p-28-I7v"/>
@@ -513,19 +517,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="LQH-NR-3to">
-                                <rect key="frame" x="50" y="185" width="275" height="297.5"/>
+                                <rect key="frame" x="50" y="185" width="275" height="298"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="f39-xb-6FP">
-                                        <rect key="frame" x="0.0" y="0.0" width="275" height="84.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="85"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how to jailbreak?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba7-Ck-lgz">
-                                                <rect key="frame" x="72" y="0.0" width="131.5" height="20.5"/>
+                                                <rect key="frame" x="72" y="0.0" width="131.5" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tap 'jailbreak' and wait. it might fail or reboot multiple times.  always reboot your phone if it fails" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-uo-i16">
-                                                <rect key="frame" x="11.5" y="30.5" width="252.5" height="54"/>
+                                                <rect key="frame" x="11.5" y="31" width="252.5" height="54"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
@@ -533,10 +537,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hus-37-yhL">
-                                        <rect key="frame" x="0.0" y="124.5" width="275" height="66.5"/>
+                                        <rect key="frame" x="0.0" y="125" width="275" height="66.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="my device is not supported" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfq-bb-uau">
-                                                <rect key="frame" x="31.5" y="0.0" width="212.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="device support" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmD-TK-0RG">
+                                                <rect key="frame" x="78.5" y="0.0" width="118" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
@@ -550,10 +554,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wiy-Ov-jiH">
-                                        <rect key="frame" x="0.0" y="231" width="275" height="66.5"/>
+                                        <rect key="frame" x="0.0" y="231.5" width="275" height="66.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how do I re-install Cydia?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBL-gF-OHc">
-                                                <rect key="frame" x="39" y="0.0" width="197" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="reinstall Cydia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBL-gF-OHc">
+                                                <rect key="frame" x="79" y="0.0" width="117" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
@@ -565,13 +569,28 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="EBL-gF-OHc" firstAttribute="leading" secondItem="Wiy-Ov-jiH" secondAttribute="leading" constant="79" id="V3g-iJ-NSC"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H E L P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpr-Oi-4D5">
+                                <rect key="frame" x="91" y="85" width="193" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="2rI-Zj-bdu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="67"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.46941887842465752" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-K6-xOY">
-                                <rect key="frame" x="160.5" y="607" width="54" height="30"/>
+                                <rect key="frame" x="143" y="592" width="89" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="gUP-XC-dl1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="dismiss">
+                                <state key="normal" title="&lt;--BACK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -581,11 +600,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.73846043577981646" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="XrI-28-ssr" firstAttribute="top" secondItem="CQi-K6-xOY" secondAttribute="bottom" constant="30" id="2eg-KL-0IY"/>
+                            <constraint firstItem="XrI-28-ssr" firstAttribute="top" secondItem="CQi-K6-xOY" secondAttribute="bottom" constant="49" id="1OS-5K-wDT"/>
+                            <constraint firstItem="Rpr-Oi-4D5" firstAttribute="top" secondItem="OQq-pK-wsL" secondAttribute="bottom" constant="65" id="9QP-UB-we5"/>
                             <constraint firstAttribute="trailing" secondItem="LQH-NR-3to" secondAttribute="trailing" constant="50" id="FoE-is-CTa"/>
-                            <constraint firstItem="CQi-K6-xOY" firstAttribute="centerX" secondItem="xj2-1C-YWB" secondAttribute="centerX" id="dKc-IL-TR5"/>
+                            <constraint firstItem="LQH-NR-3to" firstAttribute="top" secondItem="Rpr-Oi-4D5" secondAttribute="bottom" constant="33" id="S1I-1g-Tqn"/>
+                            <constraint firstItem="Rpr-Oi-4D5" firstAttribute="centerX" secondItem="LQH-NR-3to" secondAttribute="centerX" id="ShF-xd-4vg"/>
+                            <constraint firstItem="CQi-K6-xOY" firstAttribute="top" secondItem="LQH-NR-3to" secondAttribute="bottom" constant="109" id="c9E-hy-331"/>
+                            <constraint firstItem="CQi-K6-xOY" firstAttribute="centerX" secondItem="LQH-NR-3to" secondAttribute="centerX" id="ja2-1b-C8e"/>
                             <constraint firstItem="LQH-NR-3to" firstAttribute="leading" secondItem="xj2-1C-YWB" secondAttribute="leading" constant="50" id="nOf-OA-tqe"/>
                             <constraint firstItem="LQH-NR-3to" firstAttribute="centerX" secondItem="xj2-1C-YWB" secondAttribute="centerX" id="t5J-3H-beK"/>
+                            <constraint firstItem="Rpr-Oi-4D5" firstAttribute="leading" secondItem="xj2-1C-YWB" secondAttribute="leadingMargin" constant="75" id="vvf-Cm-2Qm"/>
                             <constraint firstItem="LQH-NR-3to" firstAttribute="centerY" secondItem="xj2-1C-YWB" secondAttribute="centerY" id="z6U-iy-JKg"/>
                         </constraints>
                     </view>
@@ -593,7 +617,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsh-FT-DQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1428" y="110"/>
+            <point key="canvasLocation" x="1428" y="109.29535232383809"/>
         </scene>
     </scenes>
     <resources>
@@ -601,7 +625,6 @@
         <image name="Sad-Face" width="683" height="623"/>
         <image name="buffer-loading" width="1567" height="1561"/>
         <image name="cydia" width="1280" height="1280"/>
-        <image name="dancer.gif" width="163" height="266"/>
         <image name="respring" width="256" height="256"/>
     </resources>
 </document>
