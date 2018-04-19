@@ -10,7 +10,7 @@ by Thompson Vo (@t1_v0h!)
 
 exploit by Siguza (@s1guza)
 
-thanks to: (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
+(@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
 # Download IPA File
 
