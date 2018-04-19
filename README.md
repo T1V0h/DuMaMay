@@ -24,6 +24,7 @@ download "DuMaMay.ipa" here https://github.com/T1V0h/DuMaMay/releases/download/4
 | iPod Touch 5S | iOS 10.2.1 |
 | iPod Touch 6 | iOS 10.2.1 |
 | iPhone 7/+ | Not Supported |
+_____________________________________________________
 
 # DuMaMay JB Screenshot
 
