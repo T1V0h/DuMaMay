@@ -17,3 +17,5 @@ to be run with 'compile.sh'
 5. compile.sh (FINISHED)
 
 'DuMaMay.ipa' app should be located on desktop
+
+
