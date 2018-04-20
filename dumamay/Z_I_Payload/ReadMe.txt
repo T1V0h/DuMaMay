@@ -11,14 +11,9 @@ to be run with 'compile.sh'
 # HOW TO USE
 
 1. open terminal
-
 2. cd DuMaMay
-
 3. sudo chmod 755 compile.sh
-
 4. password:{ENTER YOUR PASSWORD HERE}
-
 5. compile.sh (FINISHED)
 
 'DuMaMay.ipa' app should be located on desktop
-
