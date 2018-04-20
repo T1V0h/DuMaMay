@@ -2,9 +2,11 @@
 
 # iOS 10.2.1 JailBreak
 
-By Thompson Vo (@t1_v0h!)
-
 Basically a super version of saigon
+
+# Credit
+
+By Thompson Vo (@t1_v0h!)
 
 Exploit by Siguza (@s1guza)
 
