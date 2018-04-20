@@ -31,7 +31,11 @@ https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
 
 # DuMaMay 10.2.1 Screenshots
 
+iphone screenshot
+
 <a href="http://tinypic.com?ref=2d2d34z" target="_blank"><img src="http://i64.tinypic.com/2d2d34z.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+
+terminal screenshot
 
 <a href="http://tinypic.com?ref=90nint" target="_blank"><img src="http://i67.tinypic.com/90nint.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
 
