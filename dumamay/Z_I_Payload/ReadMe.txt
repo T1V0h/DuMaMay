@@ -1,3 +1,5 @@
+# README
+
 if "readme.txt" is the only file in this folder, 
 means that you have already used the "compile.sh."
 in terminal to autobuild ipa.
