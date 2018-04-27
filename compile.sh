@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "[*] Compiling DuMaMay.."
 $(which xcodebuild) clean build CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" -sdk `xcrun --sdk iphoneos --show-sdk-path` -arch arm64
-mv Downloads/DuMaMay/dumamay/Z_I_Payload/DuMaMay.app DuMaMay.app 
+mv Downloads/DuMaMay-master/dumamay/Z_I_Payload/DuMaMay.app DuMaMay.app 
 mkdir Payload
 mv duMaMay.app Payload/DuMaMay.app
 cp DuMaMay.app
