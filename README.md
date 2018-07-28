@@ -46,7 +46,7 @@ terminal screenshot
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
-Ff device is rebooted then must run DuMaMay again to reJailbreak
+If device is rebooted then must run DuMaMay again to reJailbreak
 
 # How to use?
 Hit the jailbreak button in the center and thats all.
