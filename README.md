@@ -43,7 +43,8 @@ terminal screenshot
 1.Open project in Xcode and Run it to your iDevice
 2.Download IPA below and sideload app w/Cydia Impactor
 3.Use Jtool to sideload ipa to idevice 
-4.itms-services://?action=download-manifest&url=
+4.click on link below for installing straight from idevice
+  itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
