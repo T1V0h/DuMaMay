@@ -18,7 +18,7 @@ https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
 
 use this link with your idevice to install DuMaMay 
 
-http:itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist
+http://itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist
 
 # Supported devices
 
