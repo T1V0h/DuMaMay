@@ -16,7 +16,7 @@ https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
 
 # Download Link 2 (no computer)
 
-<a href="http://oi68.tinypic.com/1531de1.jpg" target="itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist"><img src="ihttp://oi68.tinypic.com/1531de1.jpg" border="0" alt="Click Here If Installing From iDevice"></a>
+<a href="http://www.tinypic.com/1531de1.jpg" target="itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist"><img src="ihttp://www.tinypic.com/1531de1.jpg" border="0" alt="Click Here If Installing From iDevice"></a>
 
 # Supported devices
 
