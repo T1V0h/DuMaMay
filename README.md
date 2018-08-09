@@ -43,6 +43,7 @@ terminal screenshot
 1.Open project in Xcode and Run it to your iDevice
 2.Download IPA below and sideload app w/Cydia Impactor
 3.Use Jtool to sideload ipa to idevice 
+4.itms-services://?action=download-manifest&url=
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
