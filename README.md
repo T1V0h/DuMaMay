@@ -10,9 +10,13 @@ Exploit by Siguza (@s1guza)
 
 (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
-# Download Link
+# Download Link 1
 
 https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
+
+# Download Link 2 (no computer)
+
+<a href="http://oi68.tinypic.com/1531de1.jpg" target="_blank"><img src="itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist" border="0" alt="Image and video hosting by TinyPic"></a>
 
 # Supported devices
 
@@ -43,8 +47,6 @@ terminal screenshot
 1.Open project in Xcode and Run it to your iDevice
 2.Download IPA below and sideload app w/Cydia Impactor
 3.Use Jtool to sideload ipa to idevice 
-4.click on link below for installing straight from idevice
-  itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist
 
 # Is this a full jailbreak?
 Yes. Once you run it, Cydia will be installed.
