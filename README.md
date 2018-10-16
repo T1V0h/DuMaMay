@@ -3,7 +3,7 @@
 <a href="https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa">Download IPA</a>
 
 # Download Link 2 (no computer)
-<a href="itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist">Download No Computer(IPA)</a>
+<a href="https://itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist">Download No Computer(IPA)</a>
 
 # Supported devices
 
