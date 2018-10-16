@@ -1,4 +1,15 @@
-# D u M a M a y
+# Download Link 1
+
+<a href="https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa">Download IPA</a>
+
+# Download Link 2 (no computer)
+<a href="itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist">Download No Computer(IPA)</a>
+
+# Supported devices
+
+|    Device     |   Supports   |
+|---------------|--------------|
+| iPhone 6/+    |  iOS 10.2.1  |# D u M a M a y
 
 # iOS 10.2.1 JailBreak
 
@@ -10,22 +21,7 @@ Exploit by Siguza (@s1guza)
 
 (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
-# Download Link 1
 
-https://github.com/T1V0h/DuMaMay/releases/download/4.0/DuMaMay.ipa
-
-# Download Link 2 (no computer)
-
-use this link with your idevice to install DuMaMay 
-(copy and paste everything below as a link)
-
-itms-services://?action=download-manifest&url=https://github.com/T1V0h/DuMaMay/raw/master/DuMaMay-10.2.1.plist
-
-# Supported devices
-
-|    Device     |   Supports   |
-|---------------|--------------|
-| iPhone 6/+    |  iOS 10.2.1  |
 | iPhone 6S/+   |  iOS 10.2.1  |
 | iPhone SE     |  iOS 10.2.1  |
 | iPad Air      |  iOS 10.2.1  |
