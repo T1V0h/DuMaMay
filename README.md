@@ -21,7 +21,7 @@ Exploit by Siguza (@s1guza)
 
 (@xerub), Luca Todesco (@qwertyoruiopz), and Abraham Masri (@cheesecakeufo)
 
-
+_________________________________
 | iPhone 6S/+   |  iOS 10.2.1  |
 | iPhone SE     |  iOS 10.2.1  |
 | iPad Air      |  iOS 10.2.1  |
